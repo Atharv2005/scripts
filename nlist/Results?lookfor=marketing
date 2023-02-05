@@ -1,0 +1,2431 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text&#x2F;html&#x3B;&#x20;charset&#x3D;UTF-8">
+<meta name="Generator" content="VuFind&#x20;6.1">    <title>Search Results - marketing</title>        <!-- RTL styling -->
+        <link href="&#x2F;search&#x2F;themes&#x2F;sandal&#x2F;css&#x2F;compiled.css&#x3F;_&#x3D;1653465068" media="all" rel="stylesheet" type="text&#x2F;css">
+<link href="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;css&#x2F;print.css&#x3F;_&#x3D;1580136338" media="print" rel="stylesheet" type="text&#x2F;css">
+<!--[if lt IE 10]><link href="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;css&#x2F;flex-fallback.css&#x3F;_&#x3D;1580136338" media="" rel="stylesheet" type="text&#x2F;css"><![endif]-->
+<link href="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;css&#x2F;vendor&#x2F;bootstrap-slider.min.css&#x3F;_&#x3D;1580136338" media="screen" rel="stylesheet" type="text&#x2F;css">
+<link href="&#x2F;search&#x2F;themes&#x2F;root&#x2F;images&#x2F;vufind-favicon.ico&#x3F;_&#x3D;1587990418" rel="shortcut&#x20;icon" type="image&#x2F;x-icon">
+<link href="&#x2F;search&#x2F;Search&#x2F;OpenSearch&#x3F;method&#x3D;describe" rel="search" type="application&#x2F;opensearchdescription&#x2B;xml" title="Library&#x20;Catalog&#x20;Search">            <script type="text&#x2F;javascript">
+    //<!--
+    var userIsLoggedIn = false;
+    //-->
+</script>
+<script type="text&#x2F;javascript" src="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;js&#x2F;vendor&#x2F;jquery.min.js&#x3F;_&#x3D;1580136338"></script>
+<script type="text&#x2F;javascript" src="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;js&#x2F;vendor&#x2F;bootstrap.min.js&#x3F;_&#x3D;1580136338"></script>
+<script type="text&#x2F;javascript" src="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;js&#x2F;vendor&#x2F;bootstrap-accessibility.min.js&#x3F;_&#x3D;1580136338"></script>
+<script type="text&#x2F;javascript" src="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;js&#x2F;vendor&#x2F;validator.min.js&#x3F;_&#x3D;1580136338"></script>
+<script type="text&#x2F;javascript" src="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;js&#x2F;lib&#x2F;form-attr-polyfill.js&#x3F;_&#x3D;1580136338"></script>
+<script type="text&#x2F;javascript" src="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;js&#x2F;lib&#x2F;autocomplete.js&#x3F;_&#x3D;1580136338"></script>
+<script type="text&#x2F;javascript" src="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;js&#x2F;common.js&#x3F;_&#x3D;1580136338"></script>
+<script type="text&#x2F;javascript" src="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;js&#x2F;lightbox.js&#x3F;_&#x3D;1580136338"></script>
+<script type="text&#x2F;javascript" src="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;js&#x2F;vendor&#x2F;hunt.min.js&#x3F;_&#x3D;1580136338"></script>
+<script type="text&#x2F;javascript" src="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;js&#x2F;check_item_statuses.js&#x3F;_&#x3D;1580136338"></script>
+<script type="text&#x2F;javascript" src="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;js&#x2F;check_save_statuses.js&#x3F;_&#x3D;1580136338"></script>
+<script type="text&#x2F;javascript" src="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;js&#x2F;facets.js&#x3F;_&#x3D;1580136338"></script>
+<script type="text&#x2F;javascript" src="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;js&#x2F;vendor&#x2F;bootstrap-slider.min.js&#x3F;_&#x3D;1580136338"></script>
+<script type="text&#x2F;javascript" src="&#x2F;search&#x2F;themes&#x2F;bootstrap3&#x2F;js&#x2F;account_ajax.js&#x3F;_&#x3D;1580136338"></script>
+<script type="text&#x2F;javascript">
+    //<!--
+    VuFind.path = '/search';
+VuFind.defaultSearchBackend = 'Solr';
+VuFind.addTranslations({"qrcode_hide": "Hide QR Code","qrcode_show": "Show QR Code","add_tag_success": "Tags Saved","bulk_email_success": "Your item(s) were emailed","bulk_noitems_advice": "No items were selected. Please click on a checkbox next to an item and try again.","bulk_save_success": "Your item(s) were saved successfully","close": "close","collection_empty": "No items to display.","error_occurred": "An error has occurred","go_to_list": "Go to List","hold_available": "Available for Pickup","libphonenumber_invalid": "Phone number invalid","libphonenumber_invalidcountry": "Invalid country calling code","libphonenumber_invalidregion": "Invalid region code:","libphonenumber_notanumber": "The string supplied did not seem to be a phone number","libphonenumber_toolong": "The string supplied is too long to be a phone number","libphonenumber_tooshort": "The string supplied is too short to be a phone number","libphonenumber_tooshortidd": "Phone number too short after IDD","loading": "Loading","more": "more","number_thousands_separator": ",","sms_success": "Message sent.","Phone number invalid": "Phone number invalid","Invalid country calling code": "Invalid country calling code","Invalid region code": "Invalid region code:","The string supplied did not seem to be a phone number": "The string supplied did not seem to be a phone number","The string supplied is too long to be a phone number": "The string supplied is too long to be a phone number","The string supplied is too short to be a phone number": "The string supplied is too short to be a phone number","Phone number too short after IDD": "Phone number too short after IDD","account_has_alerts": "Your account has alerts","Checked Out Items": "Checked Out Items","ill_request_available": "Available for Pickup","renew_item_due_tooltip": "Items due soon","renew_item_overdue_tooltip": "Items overdue","request_in_transit": "In Transit to Pickup Location","storage_retrieval_request_available": "Available for Pickup"});
+    //-->
+</script>  </head>
+  <body class="template-dir-search template-name-results ">
+        <header class="hidden-print">
+              <span class="sr-only" role="heading" aria-level="1">Showing <strong>1 - 20</strong> results of <strong>27,391</strong> for search '<strong>marketing</strong>'</span>
+            <a class="sr-only" href="#content">Skip to content</a>
+      <div class="banner container navbar">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
+    <a class="navbar-brand lang-en" href="/search/">NLIST</a>
+  </div>
+      <div class="collapse navbar-collapse" id="header-collapse">
+      <nav>
+        <ul role="navigation" class="nav navbar-nav navbar-right flip">
+	    <!-- <li><a href="https://iproxy.inflibnet.ac.in:2443/login?auth=shibboleth&url=^U"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a> </li> -->
+                                          <li class="logoutOptions hidden">
+              <a href="/search/MyResearch/Home?redirect=0"><i id="account-icon" class="fa fa-user-circle" aria-hidden="true"></i> Your Account</a>
+            </li>
+                        <li class="logoutOptions hidden">
+              <a href="/search/MyResearch/Logout" class="logout"><i class="fa fa-sign-out" aria-hidden="true"></i> Log Out</a>
+            </li>
+            <li id="loginOptions">
+                              <a href="/search/MyResearch/UserLogin"><i class="fa fa-sign-in" aria-hidden="true"></i> Institutional Login</a>
+                          </li>
+          
+          
+                      <li class="language dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Language <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                                  <li class="active">
+                    <a href="&#x2F;search&#x2F;Search&#x2F;Results&#x3F;lookfor&#x3D;marketing&amp;lng&#x3D;en" rel="nofollow">
+                      English                    </a>
+                  </li>
+                                  <li>
+                    <a href="&#x2F;search&#x2F;Search&#x2F;Results&#x3F;lookfor&#x3D;marketing&amp;lng&#x3D;bn" rel="nofollow">
+                      বাংলা                    </a>
+                  </li>
+                                  <li>
+                    <a href="&#x2F;search&#x2F;Search&#x2F;Results&#x3F;lookfor&#x3D;marketing&amp;lng&#x3D;hi" rel="nofollow">
+                      हिंदी                    </a>
+                  </li>
+                              </ul>
+            </li>
+                  </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="search container navbar">
+    <nav class="nav searchbox hidden-print">
+        <form id="searchForm" class="searchForm navbar-form navbar-left flip" method="get" action="/search/Search/Results" name="searchForm" autocomplete="off">
+      <ul class="nav nav-tabs">
+                      <li class="active">
+            <a >Books and Journals</a>
+          </li>
+                              <li>
+            <a href="&#x2F;search&#x2F;Search2&#x2F;Results&#x3F;lookfor&#x3D;marketing&amp;type&#x3D;AllFields">Articles (beta)</a>
+          </li>
+              </ul>
+        <input id="searchForm_lookfor" class="searchForm_lookfor form-control search-query autocomplete searcher:Solr ac-auto-submit" type="text" name="lookfor" value="marketing" aria-label="Search terms" />
+          <select id="searchForm_type" class="searchForm_type form-control" name="type" data-native-menu="false" aria-label="Search type">
+                                    <option value="AllFields" selected="selected">All Fields</option>
+                            <option value="Title">Title</option>
+                            <option value="Author">Author</option>
+                            <option value="Subject">Subject</option>
+                            <option value="CallNumber">Call Number</option>
+                            <option value="ISN">ISBN/ISSN</option>
+                            <option value="tag">Tag</option>
+                      </select>
+        <button type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i> Find</button>
+          <a href="/search/Search/Advanced?edit=18334393" class="btn btn-link" rel="nofollow">Advanced</a>
+        
+                <input type="hidden" name="limit" value="20" />    
+	
+  </form>
+
+    </nav>
+  </div>
+    </header>
+    <nav class="breadcrumbs">
+      <div class="container">
+                  <ul class="breadcrumb hidden-print">
+                          <li class="active">Search: marketing</li>                      </ul>
+              </div>
+    </nav>
+    <div role="main" class="main">
+      <div id="content" class="container">
+        
+<div class="mainbody left">
+                          <div class="top-facets">
+      <!--Toggle for mobile collapse -->
+            <a class="top-title js-toggle visible-xs" data-toggle="collapse" data-target="#top_topic_facet"><i class="fa fa-caret-right"></i> Suggested Topics within your search.</a>
+      <!--Regular title for non-mobile -->
+      <strong class="top-title hidden-xs">Suggested Topics within your search.</strong>
+      <div class="collapse in" id="top_topic_facet">
+                          <span class="facet top-facet ">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Application+software%22">
+                Application software<!--
+           --></a>
+              <span class="badge">2,821</span>
+                                    </span>
+                                      <span class="facet top-facet ">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Artificial+intelligence%22">
+                Artificial intelligence<!--
+           --></a>
+              <span class="badge">2,646</span>
+                                    </span>
+                                      <span class="facet top-facet ">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Artificial+Intelligence%22">
+                Artificial Intelligence<!--
+           --></a>
+              <span class="badge">2,645</span>
+                                    </span>
+                                      <span class="facet top-facet ">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Computer+Communication+Networks%22">
+                Computer Communication Networks<!--
+           --></a>
+              <span class="badge">2,409</span>
+                                    </span>
+                                      <span class="facet top-facet ">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Computer+communication+systems%22">
+                Computer communication systems<!--
+           --></a>
+              <span class="badge">2,408</span>
+                                    </span>
+                                      <span class="facet top-facet ">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Information+Systems+Applications+%28incl.+Internet%29%22">
+                Information Systems Applications (incl. Internet)<!--
+           --></a>
+              <span class="badge">2,390</span>
+                                    </span>
+                                      <span class="facet top-facet ">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Software+engineering%22">
+                Software engineering<!--
+           --></a>
+              <span class="badge">1,982</span>
+                                    </span>
+                                <span id="more-NarrowGroupHidden_topic_facet" class="narrow-toggle">
+              <a href="#" onclick="moreFacets('NarrowGroupHidden_topic_facet'); return false;">
+                more ...
+              </a>
+            </span>
+                            <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Computers%22">
+                Computers<!--
+           --></a>
+              <span class="badge">1,976</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Algorithms%22">
+                Algorithms<!--
+           --></a>
+              <span class="badge">1,724</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Algorithm+Analysis+and+Problem+Complexity%22">
+                Algorithm Analysis and Problem Complexity<!--
+           --></a>
+              <span class="badge">1,639</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Software+Engineering%22">
+                Software Engineering<!--
+           --></a>
+              <span class="badge">1,631</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Information+Storage+and+Retrieval%22">
+                Information Storage and Retrieval<!--
+           --></a>
+              <span class="badge">1,446</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Information+storage+and+retrieval%22">
+                Information storage and retrieval<!--
+           --></a>
+              <span class="badge">1,446</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Computer+science%22">
+                Computer science<!--
+           --></a>
+              <span class="badge">1,161</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Computer+programming%22">
+                Computer programming<!--
+           --></a>
+              <span class="badge">997</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Programming+Techniques%22">
+                Programming Techniques<!--
+           --></a>
+              <span class="badge">997</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Optical+data+processing%22">
+                Optical data processing<!--
+           --></a>
+              <span class="badge">996</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22User+interfaces+%28Computer+systems%29%22">
+                User interfaces (Computer systems)<!--
+           --></a>
+              <span class="badge">996</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22User+Interfaces+and+Human+Computer+Interaction%22">
+                User Interfaces and Human Computer Interaction<!--
+           --></a>
+              <span class="badge">994</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Database+management%22">
+                Database management<!--
+           --></a>
+              <span class="badge">987</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Database+Management%22">
+                Database Management<!--
+           --></a>
+              <span class="badge">984</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Computer+science-Mathematics%22">
+                Computer science-Mathematics<!--
+           --></a>
+              <span class="badge">931</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Management+information+systems%22">
+                Management information systems<!--
+           --></a>
+              <span class="badge">904</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Management+of+Computing+and+Information+Systems%22">
+                Management of Computing and Information Systems<!--
+           --></a>
+              <span class="badge">899</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Data+mining%22">
+                Data mining<!--
+           --></a>
+              <span class="badge">896</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Data+Mining+and+Knowledge+Discovery%22">
+                Data Mining and Knowledge Discovery<!--
+           --></a>
+              <span class="badge">889</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Mathematical+logic%22">
+                Mathematical logic<!--
+           --></a>
+              <span class="badge">874</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Marketing%22">
+                Marketing<!--
+           --></a>
+              <span class="badge">871</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Physics%22">
+                Physics<!--
+           --></a>
+              <span class="badge">865</span>
+                                    </span>
+                                      <span class="facet top-facet  NarrowGroupHidden_topic_facet hidden">
+                          <a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=topic_facet%3A%22Pattern+Recognition%22">
+                Pattern Recognition<!--
+           --></a>
+              <span class="badge">822</span>
+                                    </span>
+                                              <a class="narrow-toggle  NarrowGroupHidden_topic_facet hidden" href="#" onclick="lessFacets('NarrowGroupHidden_topic_facet'); return false;">
+            less ...
+          </a>
+              </div>
+    </div>
+  
+<script type="text&#x2F;javascript">
+    //<!--
+    collapseTopFacets()
+    //-->
+</script>                    <nav class="search-header hidden-print">
+    <div class="search-stats">
+                          Showing <strong>1 - 20</strong> results of <strong>27,391</strong> for search '<strong>marketing</strong>'<span class="search-query-time">, query time: 0.09s</span>
+        <a class="search-filter-toggle visible-xs" href="#search-sidebar" data-toggle="offcanvas" title="Expand Sidebar">
+          Refine Results        </a>
+          </div>
+
+          <div class="search-controls">
+                  <form class="search-sort" action="/search/Search/Results" method="get" name="sort">
+    <input type="hidden" name="lookfor" value="marketing" /><input type="hidden" name="type" value="AllFields" />    <label for="sort_options_1">Sort</label>
+    <select id="sort_options_1" name="sort" class="jumpMenu form-control">
+              <option value="relevance" selected="selected">Relevance</option>
+              <option value="year">Date Descending</option>
+              <option value="year&#x20;asc">Date Ascending</option>
+              <option value="callnumber-sort">Call Number</option>
+              <option value="author">Author</option>
+              <option value="title">Title</option>
+          </select>
+    <noscript><input type="submit" class="btn btn-default" value="Set" /></noscript>
+  </form>
+        <div class="view-buttons hidden-xs">
+  </div>
+      </div>
+      </nav>
+  
+      <form id="search-cart-form" method="post" name="bulkActionForm" action="/search/Cart/SearchResultsBulk" data-lightbox data-lightbox-onsubmit="bulkFormHandler">
+          </form>
+        <div id="result0" class="result ajaxItem">
+        <div class="record-number">
+      1    </div>
+    <input type="hidden" value="EBC282912" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;EBC282912" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;&amp;callnumber&#x3D;HF5415&#x2B;.M37&#x2B;2005&amp;size&#x3D;medium&amp;title&#x3D;Markets&#x2B;and&#x2B;marketing&#x2B;an&#x2B;Emerald&#x2B;guide.&amp;recordid&#x3D;EBC282912&amp;source&#x3D;Solr&amp;oclc&#x3D;743206886"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/EBC282912" class="title getFull" data-view="full">
+<mark>Markets</mark> and <mark>marketing</mark> an Emerald guide.                </a>
+            </div>
+
+            <div>
+                                    
+                                                                        Published 2005                                                        </div>
+
+                                                                        <strong>Subjects:</strong>
+                                                                <span class="quotestart">&#8220;</span>...<mark>Marketing</mark>....<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;ebookcentral.proquest.com&#x2F;lib&#x2F;inflibnet-ebooks&#x2F;detail.action&#x3F;docID&#x3D;282912" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> Click to View</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=Ebrary&url=https%3A%2F%2Febookcentral.proquest.com%2Flib%2Finflibnet-ebooks%2Fdetail.action%3FdocID%3D282912"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            Click to View</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format electronic">Electronic</span>
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC282912&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC282912&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/EBC282912/Save" data-lightbox class="save-record" data-id="EBC282912">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Markets&#x2B;and&#x2B;marketing&#x2B;an&#x2B;Emerald&#x2B;guide.&amp;rft.date&#x3D;2005&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&amp;rft.pub&#x3D;Emerald&#x2B;Group&#x2B;Publishing&#x25;2C&amp;rft.format&#x3D;Electronic&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result1" class="result ajaxItem">
+        <div class="record-number">
+      2    </div>
+    <input type="hidden" value="EDZ0000054990" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;EDZ0000054990" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;&amp;callnumber&#x3D;HF5415&#x2B;.R43&#x2B;2010&amp;size&#x3D;medium&amp;title&#x3D;Reconnecting&#x2B;marketing&#x2B;to&#x2B;markets&amp;recordid&#x3D;EDZ0000054990&amp;source&#x3D;Solr&amp;isbn&#x3D;0191738042"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/EDZ0000054990" class="title getFull" data-view="full">
+Reconnecting <mark>marketing</mark> to <mark>markets</mark>                </a>
+            </div>
+
+            <div>
+                                    
+                                                                        Published 2010                                                        </div>
+
+                                                                        <strong>Subjects:</strong>
+                                                                <span class="quotestart">&#8220;</span>...<mark>Marketing</mark> Philosophy....<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;iproxy.inflibnet.ac.in&#x3A;2443&#x2F;login&#x3F;url&#x3D;https&#x3A;&#x2F;&#x2F;oxford.universitypressscholarship.com&#x2F;view&#x2F;10.1093&#x2F;acprof&#x3A;oso&#x2F;9780199578061.001.0001&#x2F;acprof-9780199578061" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> Oxford scholarship online</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=Oxford+Scholarship+Online&url=https%3A%2F%2Fiproxy.inflibnet.ac.in%3A2443%2Flogin%3Furl%3Dhttps%3A%2F%2Foxford.universitypressscholarship.com%2Fview%2F10.1093%2Facprof%3Aoso%2F9780199578061.001.0001%2Facprof-9780199578061"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            Oxford scholarship online</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format electronic">Electronic</span>
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEDZ0000054990&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEDZ0000054990&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/EDZ0000054990/Save" data-lightbox class="save-record" data-id="EDZ0000054990">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Reconnecting&#x2B;marketing&#x2B;to&#x2B;markets&amp;rft.date&#x3D;2010&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&amp;rft.pub&#x3D;Oxford&#x2B;University&#x2B;Press&#x25;2C&amp;rft.format&#x3D;Electronic&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result2" class="result ajaxItem">
+        <div class="record-number">
+      3    </div>
+    <input type="hidden" value="EBC291571" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;EBC291571" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;&amp;callnumber&#x3D;HF5415&#x2B;.F63&#x2B;2007&amp;size&#x3D;medium&amp;title&#x3D;Focus&#x2B;on&#x2B;markets&#x2B;and&#x2B;marketing&amp;recordid&#x3D;EBC291571&amp;source&#x3D;Solr&amp;oclc&#x3D;182530721"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/EBC291571" class="title getFull" data-view="full">
+Focus on <mark>markets</mark> and <mark>marketing</mark>                </a>
+            </div>
+
+            <div>
+                                    
+                                                                        Published 2007                                                        </div>
+
+                                                                        <strong>Subjects:</strong>
+                                                                <span class="quotestart">&#8220;</span>...<mark>Marketing</mark>....<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;ebookcentral.proquest.com&#x2F;lib&#x2F;inflibnet-ebooks&#x2F;detail.action&#x3F;docID&#x3D;291571" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> Click to View</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=Ebrary&url=https%3A%2F%2Febookcentral.proquest.com%2Flib%2Finflibnet-ebooks%2Fdetail.action%3FdocID%3D291571"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            Click to View</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format electronic">Electronic</span>
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC291571&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC291571&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/EBC291571/Save" data-lightbox class="save-record" data-id="EBC291571">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Focus&#x2B;on&#x2B;markets&#x2B;and&#x2B;marketing&amp;rft.date&#x3D;2007&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&amp;rft.pub&#x3D;Emerald&#x2B;Group&#x2B;Publishing&#x25;2C&amp;rft.format&#x3D;Electronic&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result3" class="result ajaxItem">
+        <div class="record-number">
+      4    </div>
+    <input type="hidden" value="EBC1596433" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;EBC1596433" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;Tracy&#x25;2C&#x2B;Brian&#x25;2C&amp;callnumber&#x3D;HF5415&#x2B;.T695&#x2B;2014&amp;size&#x3D;medium&amp;title&#x3D;Marketing&#x2B;&#x25;2F&amp;recordid&#x3D;EBC1596433&amp;source&#x3D;Solr&amp;isbn&#x3D;0814434223&amp;oclc&#x3D;882529847"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/EBC1596433" class="title getFull" data-view="full">
+<mark>Marketing</mark> /                </a>
+            </div>
+
+            <div>
+                                                            by                                                    <a href="  /search/Author/Home?author=Tracy%2C+Brian%2C">Tracy, Brian,</a>                                            
+                                                                <br />        Published 2014                                                        </div>
+
+                                                                        <strong>Subjects:</strong>
+                                                                <span class="quotestart">&#8220;</span>...<mark>Marketing</mark>....<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;ebookcentral.proquest.com&#x2F;lib&#x2F;inflibnet-ebooks&#x2F;detail.action&#x3F;docID&#x3D;1596433" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> Click to View</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=Ebrary&url=https%3A%2F%2Febookcentral.proquest.com%2Flib%2Finflibnet-ebooks%2Fdetail.action%3FdocID%3D1596433"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            Click to View</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC1596433&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC1596433&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/EBC1596433/Save" data-lightbox class="save-record" data-id="EBC1596433">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Marketing&#x2B;&#x25;2F&amp;rft.date&#x3D;2014&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;Tracy&#x25;2C&#x2B;Brian&#x25;2C&amp;rft.pub&#x3D;AMACOM&#x25;2C&amp;rft.format&#x3D;eBook&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result4" class="result ajaxItem">
+        <div class="record-number">
+      5    </div>
+    <input type="hidden" value="EBC4856363" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;EBC4856363" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;Polese&#x25;2C&#x2B;Francesco&#x25;2C&amp;callnumber&#x3D;HF5415&#x2B;.P654&#x2B;2017&amp;size&#x3D;medium&amp;title&#x3D;Marketing&#x2B;&#x25;2F&amp;recordid&#x3D;EBC4856363&amp;source&#x3D;Solr&amp;isbn&#x3D;8892166263&amp;oclc&#x3D;987095870"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/EBC4856363" class="title getFull" data-view="full">
+<mark>Marketing</mark> /                </a>
+            </div>
+
+            <div>
+                                                            by                                                    <a href="  /search/Author/Home?author=Polese%2C+Francesco%2C">Polese, Francesco,</a>,                                                    <a href="  /search/Author/Home?author=Gummesson%2C+Evert%2C">Gummesson, Evert,</a>                                            
+                                                                <br />        Published 2017                                                        </div>
+
+                                                                        <strong>Subjects:</strong>
+                                                                <span class="quotestart">&#8220;</span>...<mark>Marketing</mark>....<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;ebookcentral.proquest.com&#x2F;lib&#x2F;inflibnet-ebooks&#x2F;detail.action&#x3F;docID&#x3D;4856363" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> Click to View</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=Ebrary&url=https%3A%2F%2Febookcentral.proquest.com%2Flib%2Finflibnet-ebooks%2Fdetail.action%3FdocID%3D4856363"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            Click to View</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC4856363&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC4856363&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/EBC4856363/Save" data-lightbox class="save-record" data-id="EBC4856363">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Marketing&#x2B;&#x25;2F&amp;rft.date&#x3D;2017&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;Polese&#x25;2C&#x2B;Francesco&#x25;2C&amp;rft.pub&#x3D;G.&#x2B;Giappichelli&#x2B;Editore&#x25;2C&amp;rft.format&#x3D;eBook&amp;rft.language&#x3D;Italian"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result5" class="result ajaxItem">
+        <div class="record-number">
+      6    </div>
+    <input type="hidden" value="EBC233893" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;EBC233893" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;&amp;callnumber&#x3D;HF5415&#x2B;.M374&#x2B;2005&amp;size&#x3D;medium&amp;title&#x3D;Marketing&amp;recordid&#x3D;EBC233893&amp;source&#x3D;Solr&amp;issn&#x3D;0258-0543&amp;oclc&#x3D;832235740"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/EBC233893" class="title getFull" data-view="full">
+<mark>Marketing</mark>                </a>
+            </div>
+
+            <div>
+                                    
+                                                                        Published 2005                                                        </div>
+
+                                                                        <strong>Subjects:</strong>
+                                                                <span class="quotestart">&#8220;</span>...<mark>Marketing</mark>....<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;ebookcentral.proquest.com&#x2F;lib&#x2F;inflibnet-ebooks&#x2F;detail.action&#x3F;docID&#x3D;233893" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> Click to View</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=Ebrary&url=https%3A%2F%2Febookcentral.proquest.com%2Flib%2Finflibnet-ebooks%2Fdetail.action%3FdocID%3D233893"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            Click to View</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format electronic">Electronic</span>
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC233893&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC233893&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/EBC233893/Save" data-lightbox class="save-record" data-id="EBC233893">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Marketing&amp;rft.date&#x3D;2005&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&amp;rft.pub&#x3D;Emerald&#x2B;Group&#x2B;Publishing&#x25;2C&amp;rft.format&#x3D;Electronic&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result6" class="result ajaxItem">
+        <div class="record-number">
+      7    </div>
+    <input type="hidden" value="EBC233894" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;EBC233894" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;&amp;callnumber&#x3D;HF5415.13&#x2B;.M375&#x2B;2005&amp;size&#x3D;medium&amp;title&#x3D;Marketing.&amp;recordid&#x3D;EBC233894&amp;source&#x3D;Solr&amp;isbn&#x3D;1845442989&amp;issn&#x3D;0258-0543&amp;oclc&#x3D;85035912"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/EBC233894" class="title getFull" data-view="full">
+<mark>Marketing</mark>.                </a>
+            </div>
+
+            <div>
+                                    
+                                                                        Published 2005                                                        </div>
+
+                                                                        <strong>Subjects:</strong>
+                                                                <span class="quotestart">&#8220;</span>...<mark>Marketing</mark> Management....<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;ebookcentral.proquest.com&#x2F;lib&#x2F;inflibnet-ebooks&#x2F;detail.action&#x3F;docID&#x3D;233894" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> Click to View</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=Ebrary&url=https%3A%2F%2Febookcentral.proquest.com%2Flib%2Finflibnet-ebooks%2Fdetail.action%3FdocID%3D233894"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            Click to View</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC233894&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC233894&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/EBC233894/Save" data-lightbox class="save-record" data-id="EBC233894">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Marketing.&amp;rft.date&#x3D;2005&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&amp;rft.pub&#x3D;Emerald&#x25;2C&amp;rft.format&#x3D;eBook&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result7" class="result ajaxItem">
+        <div class="record-number">
+      8    </div>
+    <input type="hidden" value="EBC1809885" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;EBC1809885" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;Runia&#x25;2C&#x2B;Peter&#x2B;M.&#x25;2C&amp;callnumber&#x3D;HF5415&#x2B;.M375&#x2B;2015&amp;size&#x3D;medium&amp;title&#x3D;Marketing&#x2B;&#x25;3A&#x2B;prozess-&#x2B;und&#x2B;praxisorientierte&#x2B;grundlagen&#x2B;&#x25;2F&amp;recordid&#x3D;EBC1809885&amp;source&#x3D;Solr&amp;isbn&#x3D;3110413965&amp;oclc&#x3D;910282091"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/EBC1809885" class="title getFull" data-view="full">
+<mark>Marketing</mark> : prozess- und praxisorientierte grundlagen /                </a>
+            </div>
+
+            <div>
+                                                            by                                                    <a href="  /search/Author/Home?author=Runia%2C+Peter+M.%2C">Runia, Peter M.,</a>                                            
+                                                                <br />        Published 2015                                                        </div>
+
+                                                                        <strong>Subjects:</strong>
+                                                                <span class="quotestart">&#8220;</span>...<mark>Marketing</mark>....<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;ebookcentral.proquest.com&#x2F;lib&#x2F;inflibnet-ebooks&#x2F;detail.action&#x3F;docID&#x3D;1809885" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> Click to View</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=Ebrary&url=https%3A%2F%2Febookcentral.proquest.com%2Flib%2Finflibnet-ebooks%2Fdetail.action%3FdocID%3D1809885"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            Click to View</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC1809885&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC1809885&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/EBC1809885/Save" data-lightbox class="save-record" data-id="EBC1809885">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Marketing&#x2B;&#x25;3A&#x2B;prozess-&#x2B;und&#x2B;praxisorientierte&#x2B;grundlagen&#x2B;&#x25;2F&amp;rft.date&#x3D;2015&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;Runia&#x25;2C&#x2B;Peter&#x2B;M.&#x25;2C&amp;rft.pub&#x3D;De&#x2B;Gruyter&#x2B;Oldenbourg&#x25;2C&amp;rft.format&#x3D;eBook&amp;rft.language&#x3D;German"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result8" class="result ajaxItem">
+        <div class="record-number">
+      9    </div>
+    <input type="hidden" value="EBC254237" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;EBC254237" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;Afriat&#x25;2C&#x2B;S.&#x2B;N.&#x25;2C&#x2B;1925-&amp;callnumber&#x3D;HB145&#x2B;.A347&#x2B;2003&amp;size&#x3D;medium&amp;title&#x3D;The&#x2B;market&#x2B;equilibrium&#x25;2C&#x2B;stability&#x25;2C&#x2B;mythology&#x2B;&#x25;2F&amp;recordid&#x3D;EBC254237&amp;source&#x3D;Solr&amp;oclc&#x3D;475967217&amp;nbn&#x3D;GBA2-V1732"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/EBC254237" class="title getFull" data-view="full">
+The <mark>market</mark> equilibrium, stability, mythology /                </a>
+            </div>
+
+            <div>
+                                                            by                                                    <a href="  /search/Author/Home?author=Afriat%2C+S.+N.%2C+1925-">Afriat, S. N., 1925-</a>                                            
+                                                                <br />        Published 2003                                                        </div>
+
+                                            
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;ebookcentral.proquest.com&#x2F;lib&#x2F;inflibnet-ebooks&#x2F;detail.action&#x3F;docID&#x3D;254237" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> Click to View</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=Ebrary&url=https%3A%2F%2Febookcentral.proquest.com%2Flib%2Finflibnet-ebooks%2Fdetail.action%3FdocID%3D254237"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            Click to View</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format electronic">Electronic</span>
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC254237&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC254237&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/EBC254237/Save" data-lightbox class="save-record" data-id="EBC254237">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;The&#x2B;market&#x2B;equilibrium&#x25;2C&#x2B;stability&#x25;2C&#x2B;mythology&#x2B;&#x25;2F&amp;rft.date&#x3D;2003&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;Afriat&#x25;2C&#x2B;S.&#x2B;N.&#x25;2C&#x2B;1925-&amp;rft.pub&#x3D;Routledge&#x25;2C&amp;rft.format&#x3D;Electronic&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result9" class="result ajaxItem">
+        <div class="record-number">
+      10    </div>
+    <input type="hidden" value="EBC334470" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;EBC334470" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;Brown&#x25;2C&#x2B;Stephen&#x25;2C&#x2B;1955&#x2B;Mar.&#x2B;23-&amp;callnumber&#x3D;HF5415&#x2B;.B745&#x2B;2001&amp;size&#x3D;medium&amp;title&#x3D;Marketing&#x2B;the&#x2B;retro&#x2B;revolution&#x2B;&#x25;2F&amp;recordid&#x3D;EBC334470&amp;source&#x3D;Solr&amp;oclc&#x3D;476142655"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/EBC334470" class="title getFull" data-view="full">
+<mark>Marketing</mark> the retro revolution /                </a>
+            </div>
+
+            <div>
+                                                            by                                                    <a href="  /search/Author/Home?author=Brown%2C+Stephen%2C+1955+Mar.+23-">Brown, Stephen, 1955 Mar. 23-</a>                                            
+                                                                <br />        Published 2001                                                        </div>
+
+                                                                        <strong>Subjects:</strong>
+                                                                <span class="quotestart">&#8220;</span>...<mark>Marketing</mark>....<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;ebookcentral.proquest.com&#x2F;lib&#x2F;inflibnet-ebooks&#x2F;detail.action&#x3F;docID&#x3D;334470" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> Click to View</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=Ebrary&url=https%3A%2F%2Febookcentral.proquest.com%2Flib%2Finflibnet-ebooks%2Fdetail.action%3FdocID%3D334470"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            Click to View</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format electronic">Electronic</span>
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC334470&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEBC334470&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/EBC334470/Save" data-lightbox class="save-record" data-id="EBC334470">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Marketing&#x2B;the&#x2B;retro&#x2B;revolution&#x2B;&#x25;2F&amp;rft.date&#x3D;2001&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;Brown&#x25;2C&#x2B;Stephen&#x25;2C&#x2B;1955&#x2B;Mar.&#x2B;23-&amp;rft.pub&#x3D;Sage&#x2B;Publications&#x25;2C&amp;rft.format&#x3D;Electronic&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result10" class="result ajaxItem">
+        <div class="record-number">
+      11    </div>
+    <input type="hidden" value="EDZ0000072074" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;EDZ0000072074" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;Blythe&#x25;2C&#x2B;Jim.&amp;callnumber&#x3D;HF5415&amp;size&#x3D;medium&amp;title&#x3D;Marketing&amp;recordid&#x3D;EDZ0000072074&amp;source&#x3D;Solr&amp;isbn&#x3D;1446212467"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/EDZ0000072074" class="title getFull" data-view="full">
+<mark>Marketing</mark>                </a>
+            </div>
+
+            <div>
+                                                            by                                                    <a href="  /search/Author/Home?author=Blythe%2C+Jim.">Blythe, Jim.</a>                                            
+                                                                <br />        Published 2006                                                        </div>
+
+                                                                        <strong>Subjects:</strong>
+                                                                <span class="quotestart">&#8220;</span>...<mark>Marketing</mark> Textbooks....<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;connect.openathens.net&#x2F;sagepub.com&#x2F;15b7e6a9-8721-41fa-86fe-4e2b8fa4c097&#x2F;login&#x3F;entity&#x3D;https&#x3A;&#x2F;&#x2F;nlistidp.inflibnet.ac.in&#x2F;idp&#x2F;shibboleth&amp;target&#x3D;https&#x3A;&#x2F;&#x2F;sk.sagepub.com&#x2F;books&#x2F;marketing" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> SAGE knowledge</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=Sage+Knowledge&url=https%3A%2F%2Fconnect.openathens.net%2Fsagepub.com%2F15b7e6a9-8721-41fa-86fe-4e2b8fa4c097%2Flogin%3Fentity%3Dhttps%3A%2F%2Fnlistidp.inflibnet.ac.in%2Fidp%2Fshibboleth%26target%3Dhttps%3A%2F%2Fsk.sagepub.com%2Fbooks%2Fmarketing"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            SAGE knowledge</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format electronic">Electronic</span>
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEDZ0000072074&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEDZ0000072074&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/EDZ0000072074/Save" data-lightbox class="save-record" data-id="EDZ0000072074">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Marketing&amp;rft.date&#x3D;2006&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;Blythe&#x25;2C&#x2B;Jim.&amp;rft.pub&#x3D;SAGE&#x25;2C&amp;rft.format&#x3D;Electronic&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result11" class="result ajaxItem">
+        <div class="record-number">
+      12    </div>
+    <input type="hidden" value="EDZ0000064210" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;EDZ0000064210" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;Brown&#x25;2C&#x2B;Stephen&#x25;2C&#x2B;1955&#x2B;March&#x2B;23-&amp;callnumber&#x3D;HF5415&#x2B;.B745&#x2B;2001&amp;size&#x3D;medium&amp;title&#x3D;Marketing&#x2B;the&#x2B;retro&#x2B;revolution&#x2B;&#x25;2F&amp;recordid&#x3D;EDZ0000064210&amp;source&#x3D;Solr&amp;isbn&#x3D;1446220281"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/EDZ0000064210" class="title getFull" data-view="full">
+<mark>Marketing</mark> the retro revolution /                </a>
+            </div>
+
+            <div>
+                                                            by                                                    <a href="  /search/Author/Home?author=Brown%2C+Stephen%2C+1955+March+23-">Brown, Stephen, 1955 March 23-</a>                                            
+                                                                <br />        Published 2001                                                        </div>
+
+                                                                        <strong>Subjects:</strong>
+                                                                <span class="quotestart">&#8220;</span>...<mark>Marketing</mark>....<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;connect.openathens.net&#x2F;sagepub.com&#x2F;15b7e6a9-8721-41fa-86fe-4e2b8fa4c097&#x2F;login&#x3F;entity&#x3D;https&#x3A;&#x2F;&#x2F;nlistidp.inflibnet.ac.in&#x2F;idp&#x2F;shibboleth&amp;target&#x3D;https&#x3A;&#x2F;&#x2F;sk.sagepub.com&#x2F;books&#x2F;marketing-the-retro-revolution" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> SAGE knowledge</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=Sage+Knowledge&url=https%3A%2F%2Fconnect.openathens.net%2Fsagepub.com%2F15b7e6a9-8721-41fa-86fe-4e2b8fa4c097%2Flogin%3Fentity%3Dhttps%3A%2F%2Fnlistidp.inflibnet.ac.in%2Fidp%2Fshibboleth%26target%3Dhttps%3A%2F%2Fsk.sagepub.com%2Fbooks%2Fmarketing-the-retro-revolution"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            SAGE knowledge</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format electronic">Electronic</span>
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEDZ0000064210&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2FEDZ0000064210&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/EDZ0000064210/Save" data-lightbox class="save-record" data-id="EDZ0000064210">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Marketing&#x2B;the&#x2B;retro&#x2B;revolution&#x2B;&#x25;2F&amp;rft.date&#x3D;2001&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;Brown&#x25;2C&#x2B;Stephen&#x25;2C&#x2B;1955&#x2B;March&#x2B;23-&amp;rft.pub&#x3D;SAGE&#x25;2C&amp;rft.format&#x3D;Electronic&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result12" class="result ajaxItem">
+        <div class="record-number">
+      13    </div>
+    <input type="hidden" value="978-3-8349-3722-3" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;978-3-8349-3722-3" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;&amp;callnumber&#x3D;HF5410-5417.5&amp;size&#x3D;medium&amp;title&#x3D;Quantitative&#x2B;Marketing&#x2B;and&#x2B;Marketing&#x2B;Management&#x2B;Marketing&#x2B;Models&#x2B;and&#x2B;Methods&#x2B;in&#x2B;Theory&#x2B;and&#x2B;Practice&#x2B;&#x25;2F&amp;recordid&#x3D;978-3-8349-3722-3&amp;source&#x3D;Solr&amp;isbn&#x3D;3834937223"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/978-3-8349-3722-3" class="title getFull" data-view="full">
+Quantitative <mark>Marketing</mark> and <mark>Marketing</mark> Management <mark>Marketing</mark> Models and Methods in Theory and Practice /                </a>
+            </div>
+
+            <div>
+                                    
+                                                                        Published 2012                                                        </div>
+
+                                                                        <strong>Table of Contents:</strong>
+                                                                <span class="quotestart">&#8220;</span>...<mark>Marketing</mark> Models and <mark>Marketing</mark> Research Methods -- Consumer Behavior and Retailing -- <mark>Marketing</mark>...<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;fsso.springer.com&#x2F;federation&#x2F;init&#x3F;entityId&#x3D;https&#x3A;&#x2F;&#x2F;nlistidp.inflibnet.ac.in&#x2F;idp&#x2F;shibboleth&amp;returnUrl&#x3D;https&#x3A;&#x2F;&#x2F;link.springer.com&#x2F;10.1007&#x2F;978-3-8349-3722-3" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> View from Springer Books</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=Springer+eBooks&url=https%3A%2F%2Ffsso.springer.com%2Ffederation%2Finit%3FentityId%3Dhttps%3A%2F%2Fnlistidp.inflibnet.ac.in%2Fidp%2Fshibboleth%26returnUrl%3Dhttps%3A%2F%2Flink.springer.com%2F10.1007%2F978-3-8349-3722-3"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            View from Springer Books</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format electronic">Electronic</span>
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2F978-3-8349-3722-3&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2F978-3-8349-3722-3&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/978-3-8349-3722-3/Save" data-lightbox class="save-record" data-id="978-3-8349-3722-3">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Quantitative&#x2B;Marketing&#x2B;and&#x2B;Marketing&#x2B;Management&#x2B;Marketing&#x2B;Models&#x2B;and&#x2B;Methods&#x2B;in&#x2B;Theory&#x2B;and&#x2B;Practice&#x2B;&#x25;2F&amp;rft.date&#x3D;2012&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&amp;rft.pub&#x3D;Gabler&#x2B;Verlag&#x2B;&#x25;3A&#x2B;Imprint&#x25;3A&#x2B;Gabler&#x2B;Verlag&#x25;2C&amp;rft.format&#x3D;Electronic&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result13" class="result ajaxItem">
+        <div class="record-number">
+      14    </div>
+    <input type="hidden" value="sarf.143962_210725" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;sarf.143962_210725" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;&amp;callnumber&#x3D;&amp;size&#x3D;medium&amp;title&#x3D;Agricultural&#x2B;Marketing&#x2B;in&#x2B;India&#x25;2C&#x2B;Report&#x2B;on&#x2B;the&#x2B;Marketing&#x2B;of&#x2B;Fish&#x2B;in&#x2B;India.&amp;recordid&#x3D;sarf.143962_210725&amp;source&#x3D;Solr"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/sarf.143962_210725" class="title getFull" data-view="full">
+Agricultural <mark>Marketing</mark> in India, Report on the <mark>Marketing</mark> of Fish in India.                </a>
+            </div>
+
+            <div>
+                                    
+                                                                        Published 2013                                                        </div>
+
+                                                                        <strong>Table of Contents:</strong>
+                                                                <span class="quotestart">&#8220;</span>... for the <mark>Market</mark> / unknown -- Chapter V-Demand and Utilization / unknown -- Chapter VI-Wholesale Prices / unknown...<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;shibboleth2sp.tf.semcs.net&#x2F;Shibboleth.sso&#x2F;Login&#x3F;entityID&#x3D;https&#x3A;&#x2F;&#x2F;nlistidp.inflibnet.ac.in&#x2F;idp&#x2F;shibboleth&amp;target&#x3D;https&#x3A;&#x2F;&#x2F;shibboleth2sp.tf.semcs.net&#x2F;shib&#x3F;dest&#x3D;http&#x3A;&#x2F;&#x2F;www.southasiaarchive.com&#x2F;SHIBBOLETH&#x3F;dest&#x3D;http&#x3A;&#x2F;&#x2F;www.southasiaarchive.com&#x2F;content&#x2F;sarf.143962&#x2F;210725" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> South Asia Archive National Licensing</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=South+Asia+Archive&url=https%3A%2F%2Fshibboleth2sp.tf.semcs.net%2FShibboleth.sso%2FLogin%3FentityID%3Dhttps%3A%2F%2Fnlistidp.inflibnet.ac.in%2Fidp%2Fshibboleth%26target%3Dhttps%3A%2F%2Fshibboleth2sp.tf.semcs.net%2Fshib%3Fdest%3Dhttp%3A%2F%2Fwww.southasiaarchive.com%2FSHIBBOLETH%3Fdest%3Dhttp%3A%2F%2Fwww.southasiaarchive.com%2Fcontent%2Fsarf.143962%2F210725"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            South Asia Archive National Licensing</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2Fsarf.143962_210725&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2Fsarf.143962_210725&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/sarf.143962_210725/Save" data-lightbox class="save-record" data-id="sarf.143962_210725">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Agricultural&#x2B;Marketing&#x2B;in&#x2B;India&#x25;2C&#x2B;Report&#x2B;on&#x2B;the&#x2B;Marketing&#x2B;of&#x2B;Fish&#x2B;in&#x2B;India.&amp;rft.date&#x3D;2013&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&amp;rft.pub&#x3D;Taylor&#x2B;&#x25;26&#x2B;Francis&#x25;2C&amp;rft.format&#x3D;eBook&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result14" class="result ajaxItem">
+        <div class="record-number">
+      15    </div>
+    <input type="hidden" value="sarf.143918_210681" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;sarf.143918_210681" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;&amp;callnumber&#x3D;&amp;size&#x3D;medium&amp;title&#x3D;Agricultural&#x2B;Marketing&#x2B;in&#x2B;India.&#x2B;Report&#x2B;on&#x2B;the&#x2B;Marketing&#x2B;of&#x2B;Barley&#x2B;in&#x2B;India.&amp;recordid&#x3D;sarf.143918_210681&amp;source&#x3D;Solr"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/sarf.143918_210681" class="title getFull" data-view="full">
+Agricultural <mark>Marketing</mark> in India. Report on the <mark>Marketing</mark> of Barley in India.                </a>
+            </div>
+
+            <div>
+                                    
+                                                                        Published 2013                                                        </div>
+
+                                            
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;shibboleth2sp.tf.semcs.net&#x2F;Shibboleth.sso&#x2F;Login&#x3F;entityID&#x3D;https&#x3A;&#x2F;&#x2F;nlistidp.inflibnet.ac.in&#x2F;idp&#x2F;shibboleth&amp;target&#x3D;https&#x3A;&#x2F;&#x2F;shibboleth2sp.tf.semcs.net&#x2F;shib&#x3F;dest&#x3D;http&#x3A;&#x2F;&#x2F;www.southasiaarchive.com&#x2F;SHIBBOLETH&#x3F;dest&#x3D;http&#x3A;&#x2F;&#x2F;www.southasiaarchive.com&#x2F;content&#x2F;sarf.143918&#x2F;210681" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> South Asia Archive National Licensing</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=South+Asia+Archive&url=https%3A%2F%2Fshibboleth2sp.tf.semcs.net%2FShibboleth.sso%2FLogin%3FentityID%3Dhttps%3A%2F%2Fnlistidp.inflibnet.ac.in%2Fidp%2Fshibboleth%26target%3Dhttps%3A%2F%2Fshibboleth2sp.tf.semcs.net%2Fshib%3Fdest%3Dhttp%3A%2F%2Fwww.southasiaarchive.com%2FSHIBBOLETH%3Fdest%3Dhttp%3A%2F%2Fwww.southasiaarchive.com%2Fcontent%2Fsarf.143918%2F210681"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            South Asia Archive National Licensing</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2Fsarf.143918_210681&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2Fsarf.143918_210681&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/sarf.143918_210681/Save" data-lightbox class="save-record" data-id="sarf.143918_210681">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Agricultural&#x2B;Marketing&#x2B;in&#x2B;India.&#x2B;Report&#x2B;on&#x2B;the&#x2B;Marketing&#x2B;of&#x2B;Barley&#x2B;in&#x2B;India.&amp;rft.date&#x3D;2013&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&amp;rft.pub&#x3D;Taylor&#x2B;&#x25;26&#x2B;Francis&#x25;2C&amp;rft.format&#x3D;eBook&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result15" class="result ajaxItem">
+        <div class="record-number">
+      16    </div>
+    <input type="hidden" value="sarf.145435_218604" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;sarf.145435_218604" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;&amp;callnumber&#x3D;&amp;size&#x3D;medium&amp;title&#x3D;Agricultural&#x2B;Marketing&#x2B;in&#x2B;India.&#x2B;Report&#x2B;on&#x2B;the&#x2B;Marketing&#x2B;of&#x2B;Wheat&#x2B;in&#x2B;India.&amp;recordid&#x3D;sarf.145435_218604&amp;source&#x3D;Solr"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/sarf.145435_218604" class="title getFull" data-view="full">
+Agricultural <mark>Marketing</mark> in India. Report on the <mark>Marketing</mark> of Wheat in India.                </a>
+            </div>
+
+            <div>
+                                    
+                                                                        Published 2013                                                        </div>
+
+                                                                        <strong>Table of Contents:</strong>
+                                                                <span class="quotestart">&#8220;</span>... and Demand / unknown -- Chapter III-Wholesale Prices / unknown -- Chapter IV-Reparation for <mark>Market</mark> / unknown...<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;shibboleth2sp.tf.semcs.net&#x2F;Shibboleth.sso&#x2F;Login&#x3F;entityID&#x3D;https&#x3A;&#x2F;&#x2F;nlistidp.inflibnet.ac.in&#x2F;idp&#x2F;shibboleth&amp;target&#x3D;https&#x3A;&#x2F;&#x2F;shibboleth2sp.tf.semcs.net&#x2F;shib&#x3F;dest&#x3D;http&#x3A;&#x2F;&#x2F;www.southasiaarchive.com&#x2F;SHIBBOLETH&#x3F;dest&#x3D;http&#x3A;&#x2F;&#x2F;www.southasiaarchive.com&#x2F;content&#x2F;sarf.145435&#x2F;218604" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> South Asia Archive National Licensing</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=South+Asia+Archive&url=https%3A%2F%2Fshibboleth2sp.tf.semcs.net%2FShibboleth.sso%2FLogin%3FentityID%3Dhttps%3A%2F%2Fnlistidp.inflibnet.ac.in%2Fidp%2Fshibboleth%26target%3Dhttps%3A%2F%2Fshibboleth2sp.tf.semcs.net%2Fshib%3Fdest%3Dhttp%3A%2F%2Fwww.southasiaarchive.com%2FSHIBBOLETH%3Fdest%3Dhttp%3A%2F%2Fwww.southasiaarchive.com%2Fcontent%2Fsarf.145435%2F218604"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            South Asia Archive National Licensing</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2Fsarf.145435_218604&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2Fsarf.145435_218604&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/sarf.145435_218604/Save" data-lightbox class="save-record" data-id="sarf.145435_218604">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Agricultural&#x2B;Marketing&#x2B;in&#x2B;India.&#x2B;Report&#x2B;on&#x2B;the&#x2B;Marketing&#x2B;of&#x2B;Wheat&#x2B;in&#x2B;India.&amp;rft.date&#x3D;2013&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&amp;rft.pub&#x3D;Taylor&#x2B;&#x25;26&#x2B;Francis&#x25;2C&amp;rft.format&#x3D;eBook&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result16" class="result ajaxItem">
+        <div class="record-number">
+      17    </div>
+    <input type="hidden" value="sarf.143975_210739" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;sarf.143975_210739" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;&amp;callnumber&#x3D;&amp;size&#x3D;medium&amp;title&#x3D;Agricultural&#x2B;Marketing&#x2B;in&#x2B;India&#x25;2C&#x2B;Report&#x2B;on&#x2B;the&#x2B;Marketing&#x2B;of&#x2B;Grapes&#x2B;in&#x2B;India&#x2B;and&#x2B;Burma.&amp;recordid&#x3D;sarf.143975_210739&amp;source&#x3D;Solr"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/sarf.143975_210739" class="title getFull" data-view="full">
+Agricultural <mark>Marketing</mark> in India, Report on the <mark>Marketing</mark> of Grapes in India and Burma.                </a>
+            </div>
+
+            <div>
+                                    
+                                                                        Published 2013                                                        </div>
+
+                                                                        <strong>Table of Contents:</strong>
+                                                                <span class="quotestart">&#8220;</span>....-Preparation for <mark>Market</mark> / unknown -- Chapter V.-Grading and Standardisation / unknown -- Chapter VI.-Assembling...<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;shibboleth2sp.tf.semcs.net&#x2F;Shibboleth.sso&#x2F;Login&#x3F;entityID&#x3D;https&#x3A;&#x2F;&#x2F;nlistidp.inflibnet.ac.in&#x2F;idp&#x2F;shibboleth&amp;target&#x3D;https&#x3A;&#x2F;&#x2F;shibboleth2sp.tf.semcs.net&#x2F;shib&#x3F;dest&#x3D;http&#x3A;&#x2F;&#x2F;www.southasiaarchive.com&#x2F;SHIBBOLETH&#x3F;dest&#x3D;http&#x3A;&#x2F;&#x2F;www.southasiaarchive.com&#x2F;content&#x2F;sarf.143975&#x2F;210739" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> South Asia Archive National Licensing</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=South+Asia+Archive&url=https%3A%2F%2Fshibboleth2sp.tf.semcs.net%2FShibboleth.sso%2FLogin%3FentityID%3Dhttps%3A%2F%2Fnlistidp.inflibnet.ac.in%2Fidp%2Fshibboleth%26target%3Dhttps%3A%2F%2Fshibboleth2sp.tf.semcs.net%2Fshib%3Fdest%3Dhttp%3A%2F%2Fwww.southasiaarchive.com%2FSHIBBOLETH%3Fdest%3Dhttp%3A%2F%2Fwww.southasiaarchive.com%2Fcontent%2Fsarf.143975%2F210739"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            South Asia Archive National Licensing</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2Fsarf.143975_210739&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2Fsarf.143975_210739&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/sarf.143975_210739/Save" data-lightbox class="save-record" data-id="sarf.143975_210739">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Agricultural&#x2B;Marketing&#x2B;in&#x2B;India&#x25;2C&#x2B;Report&#x2B;on&#x2B;the&#x2B;Marketing&#x2B;of&#x2B;Grapes&#x2B;in&#x2B;India&#x2B;and&#x2B;Burma.&amp;rft.date&#x3D;2013&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&amp;rft.pub&#x3D;Taylor&#x2B;&#x25;26&#x2B;Francis&#x25;2C&amp;rft.format&#x3D;eBook&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result17" class="result ajaxItem">
+        <div class="record-number">
+      18    </div>
+    <input type="hidden" value="sarf.141186_203071" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;sarf.141186_203071" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;&amp;callnumber&#x3D;&amp;size&#x3D;medium&amp;title&#x3D;Agricultural&#x2B;Marketing&#x2B;in&#x2B;India.&#x2B;Report&#x2B;on&#x2B;the&#x2B;Marketing&#x2B;of&#x2B;Milk&#x2B;in&#x2B;India&#x2B;and&#x2B;Burma.&amp;recordid&#x3D;sarf.141186_203071&amp;source&#x3D;Solr"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/sarf.141186_203071" class="title getFull" data-view="full">
+Agricultural <mark>Marketing</mark> in India. Report on the <mark>Marketing</mark> of Milk in India and Burma.                </a>
+            </div>
+
+            <div>
+                                    
+                                                                        Published 2013                                                        </div>
+
+                                                                        <strong>Table of Contents:</strong>
+                                                                <span class="quotestart">&#8220;</span>...-Transportation / unknown -- Chapter VI-Co-Operative <mark>Marketing</mark> of Milk / unknown -- Chapter VII-Quality of <mark>Market</mark>...<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;shibboleth2sp.tf.semcs.net&#x2F;Shibboleth.sso&#x2F;Login&#x3F;entityID&#x3D;https&#x3A;&#x2F;&#x2F;nlistidp.inflibnet.ac.in&#x2F;idp&#x2F;shibboleth&amp;target&#x3D;https&#x3A;&#x2F;&#x2F;shibboleth2sp.tf.semcs.net&#x2F;shib&#x3F;dest&#x3D;http&#x3A;&#x2F;&#x2F;www.southasiaarchive.com&#x2F;SHIBBOLETH&#x3F;dest&#x3D;http&#x3A;&#x2F;&#x2F;www.southasiaarchive.com&#x2F;content&#x2F;sarf.141186&#x2F;203071" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> South Asia Archive National Licensing</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=South+Asia+Archive&url=https%3A%2F%2Fshibboleth2sp.tf.semcs.net%2FShibboleth.sso%2FLogin%3FentityID%3Dhttps%3A%2F%2Fnlistidp.inflibnet.ac.in%2Fidp%2Fshibboleth%26target%3Dhttps%3A%2F%2Fshibboleth2sp.tf.semcs.net%2Fshib%3Fdest%3Dhttp%3A%2F%2Fwww.southasiaarchive.com%2FSHIBBOLETH%3Fdest%3Dhttp%3A%2F%2Fwww.southasiaarchive.com%2Fcontent%2Fsarf.141186%2F203071"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            South Asia Archive National Licensing</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2Fsarf.141186_203071&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2Fsarf.141186_203071&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/sarf.141186_203071/Save" data-lightbox class="save-record" data-id="sarf.141186_203071">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Agricultural&#x2B;Marketing&#x2B;in&#x2B;India.&#x2B;Report&#x2B;on&#x2B;the&#x2B;Marketing&#x2B;of&#x2B;Milk&#x2B;in&#x2B;India&#x2B;and&#x2B;Burma.&amp;rft.date&#x3D;2013&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&amp;rft.pub&#x3D;Taylor&#x2B;&#x25;26&#x2B;Francis&#x25;2C&amp;rft.format&#x3D;eBook&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result18" class="result ajaxItem">
+        <div class="record-number">
+      19    </div>
+    <input type="hidden" value="sarf.146791_224948" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;sarf.146791_224948" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;&amp;callnumber&#x3D;&amp;size&#x3D;medium&amp;title&#x3D;Agricultural&#x2B;Marketing&#x2B;in&#x2B;India&#x25;2C&#x2B;Report&#x2B;on&#x2B;the&#x2B;Marketing&#x2B;of&#x2B;Skins&#x2B;in&#x2B;India&#x2B;and&#x2B;Burma.&amp;recordid&#x3D;sarf.146791_224948&amp;source&#x3D;Solr"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/sarf.146791_224948" class="title getFull" data-view="full">
+Agricultural <mark>Marketing</mark> in India, Report on the <mark>Marketing</mark> of Skins in India and Burma.                </a>
+            </div>
+
+            <div>
+                                    
+                                                                        Published 2013                                                        </div>
+
+                                                                        <strong>Table of Contents:</strong>
+                                                                <span class="quotestart">&#8220;</span>...Cover / unknown -- Chapter I-Supply / unknown -- Chapter II-Preparation for <mark>Market</mark> / unknown...<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;shibboleth2sp.tf.semcs.net&#x2F;Shibboleth.sso&#x2F;Login&#x3F;entityID&#x3D;https&#x3A;&#x2F;&#x2F;nlistidp.inflibnet.ac.in&#x2F;idp&#x2F;shibboleth&amp;target&#x3D;https&#x3A;&#x2F;&#x2F;shibboleth2sp.tf.semcs.net&#x2F;shib&#x3F;dest&#x3D;http&#x3A;&#x2F;&#x2F;www.southasiaarchive.com&#x2F;SHIBBOLETH&#x3F;dest&#x3D;http&#x3A;&#x2F;&#x2F;www.southasiaarchive.com&#x2F;content&#x2F;sarf.146791&#x2F;224948" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> South Asia Archive National Licensing</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=South+Asia+Archive&url=https%3A%2F%2Fshibboleth2sp.tf.semcs.net%2FShibboleth.sso%2FLogin%3FentityID%3Dhttps%3A%2F%2Fnlistidp.inflibnet.ac.in%2Fidp%2Fshibboleth%26target%3Dhttps%3A%2F%2Fshibboleth2sp.tf.semcs.net%2Fshib%3Fdest%3Dhttp%3A%2F%2Fwww.southasiaarchive.com%2FSHIBBOLETH%3Fdest%3Dhttp%3A%2F%2Fwww.southasiaarchive.com%2Fcontent%2Fsarf.146791%2F224948"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            South Asia Archive National Licensing</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2Fsarf.146791_224948&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2Fsarf.146791_224948&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/sarf.146791_224948/Save" data-lightbox class="save-record" data-id="sarf.146791_224948">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Agricultural&#x2B;Marketing&#x2B;in&#x2B;India&#x25;2C&#x2B;Report&#x2B;on&#x2B;the&#x2B;Marketing&#x2B;of&#x2B;Skins&#x2B;in&#x2B;India&#x2B;and&#x2B;Burma.&amp;rft.date&#x3D;2013&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&amp;rft.pub&#x3D;Taylor&#x2B;&#x25;26&#x2B;Francis&#x25;2C&amp;rft.format&#x3D;eBook&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+    <div id="result19" class="result ajaxItem">
+        <div class="record-number">
+      20    </div>
+    <input type="hidden" value="sarf.100168_218855" class="hiddenId" />
+<input type="hidden" value="Solr" class="hiddenSource" />
+<div class="media">
+                <div class="media-left medium">
+      <a href="&#x2F;search&#x2F;Record&#x2F;sarf.100168_218855" data-lightbox-image>  <img alt="Cover Image" data-linkpreview="true" class="recordcover" src="&#x2F;search&#x2F;Cover&#x2F;Show&#x3F;author&#x3D;&amp;callnumber&#x3D;&amp;size&#x3D;medium&amp;title&#x3D;Agricultural&#x2B;Marketing&#x2B;in&#x2B;India.&#x2B;Report&#x2B;on&#x2B;the&#x2B;Marketing&#x2B;of&#x2B;Grapes&#x2B;in&#x2B;India&#x2B;and&#x2B;Burma.&amp;recordid&#x3D;sarf.100168_218855&amp;source&#x3D;Solr"/>
+  </a>    </div>
+        <div class="media-body">
+        <div class="result-body">
+            <div>
+                <a href="/search/Record/sarf.100168_218855" class="title getFull" data-view="full">
+Agricultural <mark>Marketing</mark> in India. Report on the <mark>Marketing</mark> of Grapes in India and Burma.                </a>
+            </div>
+
+            <div>
+                                    
+                                                                        Published 2013                                                        </div>
+
+                                                                        <strong>Table of Contents:</strong>
+                                                                <span class="quotestart">&#8220;</span>....-Preparation for <mark>Market</mark> / unknown -- Chapter VI.-Grading and Standardization / unknown -- Chapter VII...<span class="quoteend">&#8221;</span><br/>
+                                                    
+                
+            <div class="callnumAndLocation ajax-availability hidden">
+                                        <strong class="hideIfDetailed">Call Number:</strong>
+                    <span class="callnumber ajax-availability hidden">
+                    Loading...<br/>
+                    </span>
+                    <strong>Located:</strong>
+                    <span class="location ajax-availability hidden">
+                    Loading...
+                    </span>
+                    <div class="locationDetails"></div>
+                        </div>
+
+                                                                             
+              <!--              <a href="https&#x3A;&#x2F;&#x2F;shibboleth2sp.tf.semcs.net&#x2F;Shibboleth.sso&#x2F;Login&#x3F;entityID&#x3D;https&#x3A;&#x2F;&#x2F;nlistidp.inflibnet.ac.in&#x2F;idp&#x2F;shibboleth&amp;target&#x3D;https&#x3A;&#x2F;&#x2F;shibboleth2sp.tf.semcs.net&#x2F;shib&#x3F;dest&#x3D;http&#x3A;&#x2F;&#x2F;www.southasiaarchive.com&#x2F;SHIBBOLETH&#x3F;dest&#x3D;http&#x3A;&#x2F;&#x2F;www.southasiaarchive.com&#x2F;content&#x2F;sarf.100168&#x2F;218855" class="fulltext" target="new"><i class="fa fa-external-link" aria-hidden="true"></i> South Asia Archive National Licensing</a><br/>-->
+
+                        <a href="https://nlist.inflibnet.ac.in/resolver.php?search=search-home&building=South+Asia+Archive&url=https%3A%2F%2Fshibboleth2sp.tf.semcs.net%2FShibboleth.sso%2FLogin%3FentityID%3Dhttps%3A%2F%2Fnlistidp.inflibnet.ac.in%2Fidp%2Fshibboleth%26target%3Dhttps%3A%2F%2Fshibboleth2sp.tf.semcs.net%2Fshib%3Fdest%3Dhttp%3A%2F%2Fwww.southasiaarchive.com%2FSHIBBOLETH%3Fdest%3Dhttp%3A%2F%2Fwww.southasiaarchive.com%2Fcontent%2Fsarf.100168%2F218855"  class="fulltext" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+                            South Asia Archive National Licensing</a><br/>
+
+                            
+            <div class="result-formats">
+  <span class="format ebook">eBook</span>
+
+                        </div>
+
+            <div class="result-previews">
+            </div>
+        </div>
+        <div class="result-links hidden-print">
+                                            <span class="hidden-xs">
+                    <i class="fa fa-fw fa-qrcode" aria-hidden="true"></i> <a href="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2Fsarf.100168_218855&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4" class="qrcodeLink">Show QR Code</a>
+                    <div class="qrcode hidden">
+                        <script type="text/template" class="qrCodeImgTag">
+                            <img alt="QR Code" src="&#x2F;search&#x2F;QRCode&#x2F;Show&#x3F;text&#x3D;https&#x25;3A&#x25;2F&#x25;2Fnlist.inflibnet.ac.in&#x25;2Fsearch&#x25;2FRecord&#x25;2Fsarf.100168_218855&amp;level&#x3D;L&amp;size&#x3D;3&amp;margin&#x3D;4"/>
+                        </script>
+                    </div><br/>
+                </span>
+            
+            
+                                                        <a href="/search/Record/sarf.100168_218855/Save" data-lightbox class="save-record" data-id="sarf.100168_218855">
+                        <i class="result-link-icon fa fa-fw fa-star" aria-hidden="true"></i>
+                        <span class="result-link-label">Save to List</span>
+                    </a><br/>
+                                            <div class="savedLists">
+                    <strong>Saved in:</strong>
+                </div>
+            
+                        
+<span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;Agricultural&#x2B;Marketing&#x2B;in&#x2B;India.&#x2B;Report&#x2B;on&#x2B;the&#x2B;Marketing&#x2B;of&#x2B;Grapes&#x2B;in&#x2B;India&#x2B;and&#x2B;Burma.&amp;rft.date&#x3D;2013&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&amp;rft.pub&#x3D;Taylor&#x2B;&#x25;26&#x2B;Francis&#x25;2C&amp;rft.format&#x3D;eBook&amp;rft.language&#x3D;English"></span>        </div>
+    </div>
+</div>
+  </div>
+          <ul class="pagination">
+    
+                            <li class="active"><span>1</span></li>
+                                <li><a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;page=2">2</a></li>
+                                <li><a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;page=3">3</a></li>
+                                <li><a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;page=4">4</a></li>
+                                <li><a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;page=5">5</a></li>
+                                <li><a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;page=6">6</a></li>
+                                <li><a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;page=7">7</a></li>
+                                <li><a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;page=8">8</a></li>
+                                <li><a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;page=9">9</a></li>
+                                <li><a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;page=10">10</a></li>
+                                <li><a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;page=11">11</a></li>
+                  
+          <li><a class="page-next" href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;page=2">Next &raquo;</a></li>
+              <li><a href="/search/Search/Results?lookfor=marketing&amp;type=AllFields&amp;page=1370">[1370]</a></li>
+            </ul>
+
+    <div class="searchtools hidden-print">
+      <strong>Search Tools:</strong>
+      <a href="?lookfor=marketing&amp;type=AllFields&amp;view=rss"><i class="fa fa-bell" aria-hidden="true"></i> Get RSS Feed</a>
+      &mdash;
+      <a href="/search/Search/Email" class="mailSearch" data-lightbox id="mailSearch18334393">
+        <i class="fa fa-envelope" aria-hidden="true"></i> Email this Search      </a>
+              &mdash;
+                              <a href="/search/MyResearch/SaveSearch?save=18334393"><i class="fa fa-save" aria-hidden="true"></i> Save Search</a>
+                            </div>
+  </div>
+
+<div class="sidebar right hidden-print" id="search-sidebar">
+      <button class="close-offcanvas btn btn-link" data-toggle="offcanvas">Back</button>
+  <h4>Narrow Search</h4>
+      <div class="facet-group" id="side-panel-institution">
+      <button class="title" data-toggle="collapse" href="#side-collapse-institution" >
+        Institution      </button>
+      <div id="side-collapse-institution" class="collapse in">
+                        <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=institution%3A%22N-LIST+Programme%22" class="facet js-facet-item facetAND" data-title="N-LIST&#x20;Programme" data-count="27391" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">N-LIST Programme</span>    </span>
+  
+      <span class="badge">
+      27,391    </span>
+  
+  
+</a>
+          </div>
+    </div>
+      <div class="facet-group" id="side-panel-format">
+      <button class="title" data-toggle="collapse" href="#side-collapse-format" >
+        Format      </button>
+      <div id="side-collapse-format" class="collapse in">
+                        <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=format%3A%22eBook%22" class="facet js-facet-item facetAND" data-title="eBook" data-count="27285" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">eBook</span>    </span>
+  
+      <span class="badge">
+      27,285    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=format%3A%22Electronic%22" class="facet js-facet-item facetAND" data-title="Electronic" data-count="25389" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Electronic</span>    </span>
+  
+      <span class="badge">
+      25,389    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=format%3A%22Journal%22" class="facet js-facet-item facetAND" data-title="Journal" data-count="97" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Journal</span>    </span>
+  
+      <span class="badge">
+      97    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=format%3A%22Conference+Proceeding%22" class="facet js-facet-item facetAND" data-title="Conference&#x20;Proceeding" data-count="43" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Conference Proceeding</span>    </span>
+  
+      <span class="badge">
+      43    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=format%3A%22Book%22" class="facet js-facet-item facetAND" data-title="Book" data-count="8" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Book</span>    </span>
+  
+      <span class="badge">
+      8    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=format%3A%22Thesis%22" class="facet js-facet-item facetAND" data-title="Thesis" data-count="5" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Thesis</span>    </span>
+  
+      <span class="badge">
+      5    </span>
+  
+  
+</a>                        <a id="more-narrowGroupHidden-format" class="facet narrow-toggle" href="/search/Search/FacetList?lookfor=marketing&amp;type=AllFields&amp;facet=format&amp;facetop=AND&amp;facetexclude=0" onclick="return moreFacets('narrowGroupHidden-format')" rel="nofollow">
+      <span class="text">more ...</span>
+    </a>
+      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=format%3A%22Government+Document%22" class="facet js-facet-item narrowGroupHidden-format hidden facetAND" data-title="Government&#x20;Document" data-count="1" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Government Document</span>    </span>
+  
+      <span class="badge">
+      1    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=format%3A%22Serial%22" class="facet js-facet-item narrowGroupHidden-format hidden facetAND" data-title="Serial" data-count="1" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Serial</span>    </span>
+  
+      <span class="badge">
+      1    </span>
+  
+  
+</a>
+          <a class="facet narrow-toggle narrowGroupHidden-format hidden" data-lightbox href="/search/Search/FacetList?lookfor=marketing&amp;type=AllFields&amp;facet=format&amp;facetop=AND&amp;facetexclude=0" rel="nofollow">
+      <span class="text">see all ...</span>
+    </a>
+    <a class="facet narrow-toggle narrowGroupHidden-format hidden" href="#" onclick="return lessFacets('narrowGroupHidden-format')">
+    <span class="text">less ...</span>
+  </a>
+          </div>
+    </div>
+      <div class="facet-group" id="side-panel-language">
+      <button class="title" data-toggle="collapse" href="#side-collapse-language" >
+        Language      </button>
+      <div id="side-collapse-language" class="collapse in">
+                        <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=language%3A%22English%22" class="facet js-facet-item facetAND" data-title="English" data-count="26921" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">English</span>    </span>
+  
+      <span class="badge">
+      26,921    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=language%3A%22Italian%22" class="facet js-facet-item facetAND" data-title="Italian" data-count="270" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Italian</span>    </span>
+  
+      <span class="badge">
+      270    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=language%3A%22French%22" class="facet js-facet-item facetAND" data-title="French" data-count="132" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">French</span>    </span>
+  
+      <span class="badge">
+      132    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=language%3A%22German%22" class="facet js-facet-item facetAND" data-title="German" data-count="67" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">German</span>    </span>
+  
+      <span class="badge">
+      67    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=language%3A%22Spanish%22" class="facet js-facet-item facetAND" data-title="Spanish" data-count="17" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Spanish</span>    </span>
+  
+      <span class="badge">
+      17    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=language%3A%22Bengali%22" class="facet js-facet-item facetAND" data-title="Bengali" data-count="8" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Bengali</span>    </span>
+  
+      <span class="badge">
+      8    </span>
+  
+  
+</a>                        <a id="more-narrowGroupHidden-language" class="facet narrow-toggle" href="/search/Search/FacetList?lookfor=marketing&amp;type=AllFields&amp;facet=language&amp;facetop=AND&amp;facetexclude=0" onclick="return moreFacets('narrowGroupHidden-language')" rel="nofollow">
+      <span class="text">more ...</span>
+    </a>
+      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=language%3A%22Dutch%22" class="facet js-facet-item narrowGroupHidden-language hidden facetAND" data-title="Dutch" data-count="5" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Dutch</span>    </span>
+  
+      <span class="badge">
+      5    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=language%3A%22Chinese%22" class="facet js-facet-item narrowGroupHidden-language hidden facetAND" data-title="Chinese" data-count="2" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Chinese</span>    </span>
+  
+      <span class="badge">
+      2    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=language%3A%22Portuguese%22" class="facet js-facet-item narrowGroupHidden-language hidden facetAND" data-title="Portuguese" data-count="2" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Portuguese</span>    </span>
+  
+      <span class="badge">
+      2    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=language%3A%22Russian%22" class="facet js-facet-item narrowGroupHidden-language hidden facetAND" data-title="Russian" data-count="2" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Russian</span>    </span>
+  
+      <span class="badge">
+      2    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=language%3A%22Czech%22" class="facet js-facet-item narrowGroupHidden-language hidden facetAND" data-title="Czech" data-count="1" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Czech</span>    </span>
+  
+      <span class="badge">
+      1    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=language%3A%22Old+Norse%22" class="facet js-facet-item narrowGroupHidden-language hidden facetAND" data-title="Old&#x20;Norse" data-count="1" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Old Norse</span>    </span>
+  
+      <span class="badge">
+      1    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=language%3A%22Swedish%22" class="facet js-facet-item narrowGroupHidden-language hidden facetAND" data-title="Swedish" data-count="1" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Swedish</span>    </span>
+  
+      <span class="badge">
+      1    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=language%3A%22Tajik%22" class="facet js-facet-item narrowGroupHidden-language hidden facetAND" data-title="Tajik" data-count="1" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Tajik</span>    </span>
+  
+      <span class="badge">
+      1    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=language%3A%22Yoruba%22" class="facet js-facet-item narrowGroupHidden-language hidden facetAND" data-title="Yoruba" data-count="1" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Yoruba</span>    </span>
+  
+      <span class="badge">
+      1    </span>
+  
+  
+</a>
+          <a class="facet narrow-toggle narrowGroupHidden-language hidden" data-lightbox href="/search/Search/FacetList?lookfor=marketing&amp;type=AllFields&amp;facet=language&amp;facetop=AND&amp;facetexclude=0" rel="nofollow">
+      <span class="text">see all ...</span>
+    </a>
+    <a class="facet narrow-toggle narrowGroupHidden-language hidden" href="#" onclick="return lessFacets('narrowGroupHidden-language')">
+    <span class="text">less ...</span>
+  </a>
+          </div>
+    </div>
+      <div class="facet-group" id="side-panel-publishDate">
+      <button class="title" data-toggle="collapse" href="#side-collapse-publishDate" >
+        Year of Publication      </button>
+      <div id="side-collapse-publishDate" class="collapse in">
+          <div class="facet">
+  <form class="facet-range-form" name="publishDateFilter" id="publishDateFilter">
+    <input type="hidden" name="lookfor" value="marketing" /><input type="hidden" name="type" value="AllFields" />    <input type="hidden" name="daterange[]" value="publishDate"/>
+    <div class="date-fields">
+            <div class="date-from">
+        <label for="publishDatefrom">
+          From:
+        </label>
+        <input type="text" class="form-control" name="publishDatefrom" id="publishDatefrom" value="" maxlength="4" />
+      </div>
+      <div class="date-to">
+        <label for="publishDateto">
+          To:
+        </label>
+        <input type="text" class="form-control" name="publishDateto" id="publishDateto" value="" maxlength="4" />
+      </div>
+    </div>
+          <div class="slider-container"><input type="text" class="hidden" id="publishDatedateSlider"/></div>
+        <input class="btn btn-default" type="submit" value="Set"/>
+  </form>
+</div>
+        <script type="text&#x2F;javascript">
+    //<!--
+    $(document).ready(function() {
+  var fillTexts = function() {
+    var v = publishDatedateSlider.getValue();
+    $('#publishDatefrom').val(v[0]);
+    $('#publishDateto').val(v[1]);
+  };
+  var publishDatedateSlider = $('#publishDatedateSlider')
+    .slider({
+      'min':1400,
+      'max':2024,
+      'handle':"square",
+      'tooltip':"hide",
+      'value':[1400,2024]
+    })
+    .on('change', fillTexts)
+    .data('slider');
+});
+
+$('#publishDatefrom, #publishDateto').change(function () {
+  var fromValue = Number($('#publishDatefrom').val());
+  var toValue = Number($('#publishDateto').val());
+  $('#publishDatedateSlider').slider(
+    'setValue',
+    [
+      isNaN(fromValue) || fromValue <= 0 ? 1400 : fromValue,
+      isNaN(toValue) || toValue <= 0 ? 2024 : toValue
+    ],
+    true
+  );
+});
+    //-->
+</script>      </div>
+    </div>
+      <div class="facet-group" id="side-panel-building">
+      <button class="title" data-toggle="collapse" href="#side-collapse-building" >
+        Provider      </button>
+      <div id="side-collapse-building" class="collapse in">
+                        <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=building%3A%22Springer+eBooks%22" class="facet js-facet-item facetAND" data-title="Springer&#x20;eBooks" data-count="22336" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Springer eBooks</span>    </span>
+  
+      <span class="badge">
+      22,336    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=building%3A%22Ebrary%22" class="facet js-facet-item facetAND" data-title="Ebrary" data-count="3840" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Ebrary</span>    </span>
+  
+      <span class="badge">
+      3,840    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=building%3A%22Taylor+and+Francis%22" class="facet js-facet-item facetAND" data-title="Taylor&#x20;and&#x20;Francis" data-count="366" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Taylor and Francis</span>    </span>
+  
+      <span class="badge">
+      366    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=building%3A%22South+Asia+Archive%22" class="facet js-facet-item facetAND" data-title="South&#x20;Asia&#x20;Archive" data-count="307" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">South Asia Archive</span>    </span>
+  
+      <span class="badge">
+      307    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=building%3A%22EBSCOHost-NetLibrary%22" class="facet js-facet-item facetAND" data-title="EBSCOHost-NetLibrary" data-count="172" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">EBSCOHost-NetLibrary</span>    </span>
+  
+      <span class="badge">
+      172    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=building%3A%22McGraw+Hill%22" class="facet js-facet-item facetAND" data-title="McGraw&#x20;Hill" data-count="108" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">McGraw Hill</span>    </span>
+  
+      <span class="badge">
+      108    </span>
+  
+  
+</a>                        <a id="more-narrowGroupHidden-building" class="facet narrow-toggle" href="/search/Search/FacetList?lookfor=marketing&amp;type=AllFields&amp;facet=building&amp;facetop=AND&amp;facetexclude=0" onclick="return moreFacets('narrowGroupHidden-building')" rel="nofollow">
+      <span class="text">more ...</span>
+    </a>
+      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=building%3A%22H.+W.+Wilson%22" class="facet js-facet-item narrowGroupHidden-building hidden facetAND" data-title="H.&#x20;W.&#x20;Wilson" data-count="63" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">H. W. Wilson</span>    </span>
+  
+      <span class="badge">
+      63    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=building%3A%22Cambridge+Books%22" class="facet js-facet-item narrowGroupHidden-building hidden facetAND" data-title="Cambridge&#x20;Books" data-count="60" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Cambridge Books</span>    </span>
+  
+      <span class="badge">
+      60    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=building%3A%22Oxford+Scholarship+Online%22" class="facet js-facet-item narrowGroupHidden-building hidden facetAND" data-title="Oxford&#x20;Scholarship&#x20;Online" data-count="50" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Oxford Scholarship Online</span>    </span>
+  
+      <span class="badge">
+      50    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=building%3A%22Sage+Knowledge%22" class="facet js-facet-item narrowGroupHidden-building hidden facetAND" data-title="Sage&#x20;Knowledge" data-count="49" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Sage Knowledge</span>    </span>
+  
+      <span class="badge">
+      49    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=building%3A%22JSTOR%22" class="facet js-facet-item narrowGroupHidden-building hidden facetAND" data-title="JSTOR" data-count="27" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">JSTOR</span>    </span>
+  
+      <span class="badge">
+      27    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=building%3A%22Institute+of+South+East+Asian+Studies%28ISEAS%29%22" class="facet js-facet-item narrowGroupHidden-building hidden facetAND" data-title="Institute&#x20;of&#x20;South&#x20;East&#x20;Asian&#x20;Studies&#x28;ISEAS&#x29;" data-count="5" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Institute of South East Asian Studies(ISEAS)</span>    </span>
+  
+      <span class="badge">
+      5    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=building%3A%22Indian+Journals%22" class="facet js-facet-item narrowGroupHidden-building hidden facetAND" data-title="Indian&#x20;Journals" data-count="4" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Indian Journals</span>    </span>
+  
+      <span class="badge">
+      4    </span>
+  
+  
+</a>      <a href="?lookfor=marketing&amp;type=AllFields&amp;filter%5B%5D=building%3A%22Oxford+University+Press%22" class="facet js-facet-item narrowGroupHidden-building hidden facetAND" data-title="Oxford&#x20;University&#x20;Press" data-count="4" data-lightbox-ignore>
+
+      <span class="text">
+      <span class="facet-value">Oxford University Press</span>    </span>
+  
+      <span class="badge">
+      4    </span>
+  
+  
+</a>
+          <a class="facet narrow-toggle narrowGroupHidden-building hidden" data-lightbox href="/search/Search/FacetList?lookfor=marketing&amp;type=AllFields&amp;facet=building&amp;facetop=AND&amp;facetexclude=0" rel="nofollow">
+      <span class="text">see all ...</span>
+    </a>
+    <a class="facet narrow-toggle narrowGroupHidden-building hidden" href="#" onclick="return lessFacets('narrowGroupHidden-building')">
+    <span class="text">less ...</span>
+  </a>
+          </div>
+    </div>
+    </div>
+      </div>
+    </div>
+    <footer class="hidden-print">
+  <div class="footer-container">
+    <div class="footer-column">
+      <p><strong>Search Options</strong></p>
+      <ul>
+        <li><a href="/search/Search/History">Search History</a></li>
+        <li><a href="/search/Search/Advanced">Advanced Search</a></li>
+        <li><a href="/search/Browse/Home">Browse the Catalog</a></li>
+        <li><a href="/search/Channels/Home">Explore Channels</a></li>
+      </ul>
+    </div>
+    <!--<div class="footer-column">
+      <p><strong>Find More</strong></p>
+      <ul>
+        <li><a href="/search/Browse/Home">Browse the Catalog</a></li>
+        <li><a href="/search/Alphabrowse/Home">Browse Alphabetically</a></li>
+        <li><a href="/search/Channels/Home">Explore Channels</a></li>
+        <li><a href="/search/Search/Reserves">Course Reserves</a></li>
+        <li><a href="/search/Search/NewItem">New Items</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <p><strong>Need Help?</strong></p>
+      <ul>
+        <li><a href="/search/Help/Home?topic=search&amp;_=1675064964" data-lightbox class="help-link">Search Tips</a></li>
+        <li><a href="/search/Content/asklibrary">Ask a Librarian</a></li>
+        <li><a href="/search/Content/faq">FAQs</a></li>
+      </ul>
+    </div>-->
+    <div class="footer-column">
+      <p><strong>Need Help?</strong></p>
+      <ul>
+        <li><a href="/search/Help/Home?topic=search&amp;_=1675064964" data-lightbox class="help-link">Search Tips</a></li>
+        <li><a href="https://nlist.inflibnet.ac.in/">NLIST Home</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="poweredby">
+      </div>
+</footer>
+    <!-- MODAL IN CASE WE NEED ONE -->
+    <div id="modal" class="modal fade hidden-print" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <div class="modal-body">Loading...</div>
+        </div>
+      </div>
+    </div>
+    <div class="offcanvas-overlay" data-toggle="offcanvas"></div>
+        <script type="text&#x2F;javascript">
+    //<!--
+    
+function initVuFindPiwikTracker1675064964850(){
+    var VuFindPiwikTracker = Piwik.getTracker();
+
+    VuFindPiwikTracker.setSiteId(2);
+    VuFindPiwikTracker.setTrackerUrl('https://nlistsp.inflibnet.ac.in/matomo/piwik.php');
+    VuFindPiwikTracker.setCustomUrl('https\x3A\x2F\x2Fnlist.inflibnet.ac.in\x2Fsearch\x2FSearch\x2FResults\x3Flookfor\x3Dmarketing');
+    VuFindPiwikTracker.trackSiteSearch(
+        'Solr|marketing', 'basic', 27391
+    );
+    VuFindPiwikTracker.enableLinkTracking();
+};
+(function(){
+    if (typeof Piwik === 'undefined') {
+        var d=document, g=d.createElement('script'),
+            s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.defer=true; g.async=true;
+        g.src='https://nlistsp.inflibnet.ac.in/matomo/piwik.js';
+        g.onload=initVuFindPiwikTracker1675064964850;
+        s.parentNode.insertBefore(g,s);
+    } else {
+        initVuFindPiwikTracker1675064964850();
+    }
+})();
+    //-->
+</script>      </body>
+</html>
